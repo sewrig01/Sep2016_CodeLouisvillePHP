@@ -1,0 +1,93 @@
+h1{
+  color:#3D68AD;
+  font-size:3.5em;
+  font-family:"arial";
+  max-width:100%;
+  font-weight:bold;
+  }
+h5{
+  color:#3D68AD;
+  font-size:1.25em;
+  }
+h2{
+  color:#3D68AD;
+  font-size:1.5em;
+  }
+form{
+  color:#3D68AD;
+  }
+/* start media queries */
+@media (max-width:300px),{
+  h1{
+    font-size:1.25em;
+  }
+  h2{
+    font-size:1em;
+  }
+  form{
+    font-size:.75em;
+  }
+  .btn{
+    font-size: 10px;
+  }
+  li{
+    font-size: .75em;
+  }
+}
+@media (min-width:301px) and (max-width:380px),{
+  h1{
+    font-size:1.5em;
+  }
+  h2{
+    font-size:1.25em;
+  }
+  form{
+    font-size:1em;
+  }
+  .btn{
+    font-size: 12px;
+  }
+  li{
+    font-size: .75em;
+  }
+}
+@media (min-width:381px) and (max-width:920px),{
+  h1{
+    font-size:2em;
+  }
+  h2{
+    font-size:1.5em;
+  }
+  form{
+    font-size:1em;
+  }
+  .btn{
+    font-size: 12px;
+  }
+}
+@media (min-width:921px) and (max-width:1000px), {
+  h1{
+    font-size:2em;
+  }
+  h2{
+    font-size:1.25em;
+  }
+  form{
+    font-size:1em;
+  }
+  .btn{
+    font-size: 12px;
+  }
+}
+footer{
+  background-color: black;
+  }
+.tboxSM{
+  width: 30px;
+}
+.tboxMD{
+  width: 60px;
+}
+.tboxLG{
+  width: 140px;
+}
