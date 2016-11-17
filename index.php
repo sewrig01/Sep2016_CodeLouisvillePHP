@@ -15,7 +15,7 @@
 	include 'clear.php';
 ?>
 
-<Div class="col-sm-4">
+<Div class="col-sm-12">
 	<div  >
 		<h2>Sort options:</h2>
 		<form method="POST" action="index.php">

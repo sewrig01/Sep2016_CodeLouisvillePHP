@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<header class= "container">
-			<h1>
+			<h1 class smallish>
 				<?php echo $PgHeading ?>
 			</h1>
 </header>
