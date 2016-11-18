@@ -7,19 +7,9 @@ $dbhost = 'localhost:3036';
    if(! $conn ) {
       die('Could not connect: ' . mysql_error());
    }
-
-   #working on UPDATE function
-   #testing SQL update
-#   $sql = "UPDATE Exercises SET Reps = '$Srep' WHERE id = '$currid'";
-
-#sql for delete4
+#sql for delete4 - Unused, but could be implemented
  $sql = 'DELETE FROM Exercises where Reps = 0';
-#Sql for add all
-#	$sql = 'UPDATE EatSpots
-#	SET EatPicked = "y"';
-	#Sql for Remove all
-#		$sql = 'UPDATE EatSpots
-#		SET EatPicked = "n"';
+
 
 
    mysql_select_db('Eats');

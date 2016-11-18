@@ -2,7 +2,7 @@
   $pageTitle = "Enter a New Exercise";
   $Section = "Form";
   include ("header.php"); ?>
-<!--need to add isset to keep out null values -->
+<!--was going to use isset to keep out null values, but decided to allow null -->
   <div class=section>
     <div class="container">
       <h1>Add an exercise</h1>

@@ -29,12 +29,7 @@ $dbhost = 'localhost:3036';
 
 #sql for delete4
 # $sql = 'DELETE FROM Exercises where id > "56"';
-#Sql for add all
-#	$sql = 'UPDATE EatSpots
-#	SET EatPicked = "y"';
-	#Sql for Remove all
-#		$sql = 'UPDATE EatSpots
-#		SET EatPicked = "n"';
+
 
 
    mysql_select_db('Eats');

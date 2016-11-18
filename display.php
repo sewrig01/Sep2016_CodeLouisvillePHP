@@ -1,10 +1,5 @@
 <?php
-#  function display_all($id, $item){
-#    echo "<li><b>".$item["ExerciseName"].
-#    "</b>    Sets".$item["Sets"]."  <b> Reps  ".
-#    $item["Reps"]."</b>    ".$item["Weight"]." pounds.  Last date = " .$item["LastDate"]."</li> <form method='POST' action='index.php'>
-#      <input type='submit' name='sorttype' value= ".$item["ExerciseName"]."|newt class='btn btn-primary'/>";
-#  }
+
 
   function display_all($id, $item){
 if ($item["Active"]!='y'){

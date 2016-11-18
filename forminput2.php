@@ -10,18 +10,8 @@
   $Dates= htmlspecialchars($_POST["Dates"]);
   $Active= htmlspecialchars($_POST["Active"]);
 
-/*
-echo $ExerciseName;
-echo $Sets;
-echo $Reps;
-echo $Weight;
-echo $LastDate;
-echo $Group;
-echo $Dates;
-echo $Active;
-*/
-#verify that all fields are entered
-#allow name only to be set
+#originally has multiple isset to verify that all fields are entered
+#but decided to allow name only to be set
 
   if (isset($ExerciseName) AND $ExerciseName !="") {
   ini_set('display_errors','On');
@@ -51,7 +41,7 @@ echo $Active;
     $url = 'form.php';
     echo '<META HTTP-EQUIV=Refresh CONTENT="0; URL='.$url.'">';
   }
-  #escape input;
+  
 
 
 ?>
